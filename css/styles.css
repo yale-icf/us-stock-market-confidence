@@ -1,0 +1,41 @@
+/* Header Styles */
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Chart Styles */
+#chart {
+    width: 100%;
+    height: 500px;
+    margin: 20px 0;
+}
+
+.chart-line {
+    fill: none;
+    stroke-width: 2;
+}
+
+.institutional-line {
+    stroke: #00356B;
+}
+
+.individual-line {
+    stroke: #BD0026;
+}
+
+/* Accordion Styles */
+.accordion-button:not(.collapsed) {
+    background-color: #00356B;
+    color: white;
+}
+
+/* Download Button Styles */
+.btn-primary {
+    background-color: #00356B;
+    border-color: #00356B;
+}
+
+.btn-primary:hover {
+    background-color: #002144;
+    border-color: #002144;
+} 
